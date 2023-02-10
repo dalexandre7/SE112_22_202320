@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Basic Form Demo</h1>
+    <h2>From w/o Table [boooooo! Bad]</h2>
+    <!--Labels are used to match with input elements
+    
+        for attribute value of <label> MATCHES name attribute and id attribute of <input>-->
+
+            <!-- First NAME-->
+            <label for ="firstName">First Name: </label>
+            <input type = "text" name="firstName"id = "firstName">
+            <br>
+            <!--LAST NAME-->
+            <label for ="lastName">Last Name: </label>
+            <input type = "text" name="lastName"id = "lastName">
+            <br>
+            <!--Email-->
+            <label for ="email">Email:</label>
+            <input type = "text" name="email"id = "email" required>
+            <!--Submit Button-->
+            <input type = "submit" value = "SUBMIT!">
+    <hr> 
+    <h2>Form w/ Table [The right way]</h2>
+    <form> 
+            <table> 
+                <tbody> 
+                    <tr> 
+
+                        <td> 
+                            <label for = "first"> First Name: </label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "first" id = first> 
+                        </td>
+
+                    </tr>
+                    <tr> 
+
+                        <td> 
+                            <label for = "last"> Last Name: </label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "last" id = last> 
+                        </td>
+
+                    </tr>
+                    <tr> 
+
+                        <td> 
+                            <label for = "email"> Email: </label>
+                        </td>
+                        <td>
+                            <input type = "text" name = "email" id = email> 
+                        </td>
+
+                    </tr>
+                    <tr> 
+                        <!--Submit Button-->
+                        <input type = "submit" value = "SUBMIT!">
+                    </tr>
+
+
+
+
+
+                </tbody>
+
+
+
+
+
+
+            </table>
+        
+</body>
+</html>
