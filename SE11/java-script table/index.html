@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title= "Java script calculator" author = "Daniel alexandre"> 
+    <title>JavaScript Calculator</title>
+</head>
+<body>
+    <h1>JavaScript Pay Calculator</h1>
+    <script> 
+        var hourWage
+        var hoursWorked 
+        var taxRate
+        var grossPay
+        var uncSam
+        var netPay
+        var hourWage = Number(prompt("How much do you get payed per hour?"))
+        var hoursWorked = Number(prompt("How many hours did you work? "))
+        var taxRate = .20 
+        var grossPay = ((hourWage * hoursWorked) * 2) 
+        var uncSam = grossPay * taxRate 
+        var netPay = grossPay - uncSam 
+        console.log("Gross Pay: $", grossPay)
+        console.log("Uncle Sam: $", uncSam)
+        console.log("Net Pay: $", netPay )
+        alert(`Gross Pay: $ ${grossPay.toFixed(2)}.Uncle Sam: $ ${uncSam.toFixed(2)}.Gross Pay: $ ${netPay.toFixed(2)}.`)
+
+    
+    
+    </script>
+    
+
+
+</body>
+</html>
