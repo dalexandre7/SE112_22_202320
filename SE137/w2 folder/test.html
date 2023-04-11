@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <style> 
+        .hide{
+            display:none;
+        }
+
+        h2{
+            font-style:12px;
+            color: blueviolet;
+        }
+        body{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1> Daniel Alexandre </h1>
+    <hr>
+    <div id = "nav">
+        <a href = "#bio">Bio</a>
+        <a href = "#ed">Hobbies</a>
+        <a href = "#hobbies">Education</a>
+    </div>
+    <hr>
+    <div id = "main"> 
+
+        <div id = "bio" class = "content">
+            <h2>My Bio</h2>
+            <p>My name is Daniel Alexandre, I am 18 years old and a freshman at New England Institute of Technology majoring in computer science. I was born on 9/11/2004, in Boston Massachusetts, shortly there after my family moved back to Paris, France to be closer to my fathers family. At 5 years old we moved back to the states, where i lived in Quincy, Mass, and later Wrenthem, Mass.</p>
+            <p>In highschool, I trained in 2 sports including Swimming and Volleyball and was able to participate in both on a Varsity level and as Captain. While figuring out what i wanted to major in for college, i chose the IT route because ive always grown up with and loved using computers, and so I decidied to try it out, so far so good!</p>
+            <hr>
+        </div>
+        <div id = "hobbies" class = "content"> 
+            <h2>Hobbies</h2>
+            <ol>
+                <li>
+                    Traveling
+                </li>
+                <li>
+                    Photography
+                </li>
+                <li>
+                    Piano
+                </li>
+                <img src = "images/49603681-0789-4147-9F2E-C6C0BB638728_1_105_c.jpeg" alt = "my favorite picture in london(Big Ben Tower)"
+                width = 400px
+                height = auto >
+            </ol>
+        </div>
+        <div id = "ed" class = "content">
+            <h2>Schooling</h2>
+            <ul>
+                <li> Clifford Elemenatry School</li>
+                <li> Point Webster Middle School </li>
+                <li> King Philip Junior highschool</li>
+                <li> King Philip Regional High School</li>
+                <li> <a href = "https://www.neit.edu/?abgrp=a&ctcampaign=7833&ctkwd=neit&ctcreative=617964173190&ctplacement&ctadpos&ctmatch=e&ctlocid=9001952&cttrgtid=kwd-336551315444&ctfeedid&ctnwk=g&ctdevice=">|New England Institute of Technology|</li>
+                <hr>
+            </ul>
+            <hr>
+    
+
+        </div>
+
+    </div>
+    <div id = footer class = "border"> 
+        <p>©2023 Daniel Alexandre | W1 Assignment</p>
+    </div>
+    <hr>
+    <script> 
+        var a = document.querySelectorAll('#nav a');
+
+        for(let i=0; i<a.length; i++)
+        {
+            a[i].addEventListener('click', function(e){
+                e.preventDefault(); 
+
+                var div = document.querySelectorAll('.content'); 
+
+                for(let i=0; i<div.length; i++)
+                {
+                    div[i].classList.add('hide');
+                }
+
+            div[i].classList.remove('hide'); 
+
+
+            })
+        }
+    </script>
+</body>
+</html>
