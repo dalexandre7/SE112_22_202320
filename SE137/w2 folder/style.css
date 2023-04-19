@@ -1,5 +1,9 @@
 @charset "UTF - 8"; 
 
+.hide{
+  display:hide; 
+}
+
 body{
     background-image: url("https://wallpapercave.com/wp/wp3820166.jpg")
 }

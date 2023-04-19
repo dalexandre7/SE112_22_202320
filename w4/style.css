@@ -1,0 +1,64 @@
+@charset "UTF - 8";
+html,body{ 
+  box-sizing: border-box; 
+  height: 100%; 
+  margin: 0px; 
+}
+h2{
+    color: white;
+}
+
+.hide{
+  display: none; 
+}
+.grid-container{ 
+  display: grid; 
+  grid-template-areas: 
+  'head head head head head'
+  'bio bio bio schooling schooling schooling'
+  'bio bio bio hobbies hobbies hobbies'
+  'bio bio bio hobbies hobbies hobbies'
+  'footer footer footer footer footer'
+}
+.item1{ 
+  grid-area: head; 
+  text-align: center; 
+  background-color: blanchedalmond;
+}
+.item2 {
+  grid-area: bio; 
+  text-align: center; 
+  height: 300px; 
+}
+.item3{ 
+    grid-area: schooling; 
+    text-align: center;
+    height: 300px;
+    border: 5px solid burlywood; 
+}
+.item4{ 
+    grid-area: hobbies; 
+    text-align: center;
+    background-image: url(images/wp7335992.webp);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    border: 5px solid burlywood; 
+    text-emphasis-color: black;
+    height: 500px;
+
+}
+.item5{ 
+    grid-area: footer; 
+    text-align: center; 
+    background-color: gray;
+    height: 100px;
+
+}
+body{ 
+    background-color: darkgray;
+}
+p,li{ 
+    color: white;
+    text-align: center;
+    margin-inline: 300px; 
+}
