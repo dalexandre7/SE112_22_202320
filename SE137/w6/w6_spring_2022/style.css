@@ -58,7 +58,7 @@ header{
 
 section{
     height:100%;
-    background-color:burlywood;
+    background-color: #373737;
     display:flex;
     justify-content: flex-start;
 }
@@ -67,10 +67,17 @@ aside{
     background-color: #505050;
     display: flex; 
     flex-direction: column;
+    align-items: center;
+
+}
+#aside a:last-child{
+    margin-top: 300px; 
 
 }
 #tile{ 
     display: inline-block; 
+    
+
     
 }
 #tray{ 
@@ -86,15 +93,34 @@ nav{
     background-color: #373737;
     transition:width 1s;
     display:flex;
-    justify-content: flex-end;
     overflow:hidden;
+    
 }
 details{
+    border-bottom: 1px solid #7B7575;
     margin:5px;
     width:90px;
+    display: flex; 
+    flex-direction: column;
+    font-family: 'Roboto'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 12px; 
+    line-height:14px; 
+    color: #FFFFFF
+}
+#file_list{ 
+    display: list-item; 
+    list-style-image: url(images/sprites\ 16.png);
+    align-items: center;
 }
 summary{
+    list-style: none;
+
     width:90px;
+}
+summary:-webkit-details-marker { 
+    display: none; 
 }
 #content{
     width:100%;
