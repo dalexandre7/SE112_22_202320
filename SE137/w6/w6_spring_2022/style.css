@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html, body{
+    margin:0;
+    height:100%;
+}
+body{
+    box-sizing:border-box;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+}
+main{
+    width:100%;
+    background-color: #C2C2C2;
+    display:flex;
+    flex-direction: column;
+}
+header{
+    background-color: #505050;
+    height:23px;
+    padding-left: 44px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    
+    
+
+}
+#words a{ 
+
+    font-family: 'Roboto';
+    display:inline-block; 
+    text-decoration: none;
+    margin-right: 4px; 
+    color: #E3E3E3;
+    font-size: 12px; 
+    line-height: 14px; 
+    font-weight: 400; 
+}
+#words a:last-child{ 
+    margin-right: 0px; 
+}
+#title{
+     font-family: 'Roboto'; 
+     display: inline-block; 
+     color: #FFFFFF; 
+     font-size: 12px; 
+     font-weight: 400;
+     line-height: 14px;
+     
+}
+#settings{ 
+    display: inline-block; 
+}
+
+section{
+    height:100%;
+    background-color:burlywood;
+    display:flex;
+    justify-content: flex-start;
+}
+aside{
+    width:50px;
+    background-color: #505050;
+    display: flex; 
+    flex-direction: column;
+
+}
+#tile{ 
+    display: inline-block; 
+    
+}
+#tray{ 
+    display: inline-block;
+}
+#trash{
+    display:inline-block; 
+}
+
+nav{
+
+    width:150px;
+    background-color: #373737;
+    transition:width 1s;
+    display:flex;
+    justify-content: flex-end;
+    overflow:hidden;
+}
+details{
+    margin:5px;
+    width:90px;
+}
+summary{
+    width:90px;
+}
+#content{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+    #tabs{
+        background-color: #161616;
+        display:flex;
+    }
+        #tabs a{
+            display: flex; 
+            align-items: center;
+            justify-content: space-between; 
+            text-decoration: none;
+            font-family: 'Roboto';
+            color: #C2C2C2;
+            width:100px;
+            height:40px;
+            display:inline-block;
+        }
+        #tabs a:link, #tabs a:visited{
+            background-color: #161616;
+
+        }
+        #tabs a:hover, #tabs a:active{
+            background-color: #161616;
+        }
+    #breadcrumbs{
+        background-color: #161616;
+
+    }
+    textarea{
+        resize:none;
+        width:100%;
+        height:100%;
+        box-sizing: border-box;
+        border:none;
+        outline:none;
+        background-color:black;
+        color:white;
+    }
+footer{
+    height:16px;
+    background-color:blue;
+}
+
+
+
+.hidden{
+    width:0;
+    padding:0;
+    transition:width 1s;
+}
