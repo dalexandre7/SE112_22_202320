@@ -81,6 +81,7 @@ aside{
     display: inline-block;
 }
 #trash{
+    display: flex-end; 
     display:inline-block; 
     margin-top: 270px; 
 }
