@@ -107,11 +107,16 @@ details{
     font-weight: 400; 
     font-size: 12px; 
     line-height:14px; 
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 #file_list{ 
     display: list-item; 
     list-style-image: url(images/sprites\ 16.png);
+    align-items: center;
+}
+#stuff_list{
+    display: list-item; 
+    list-style-image: url(images/sprites\ 17.png);
     align-items: center;
 }
 summary{
@@ -132,6 +137,8 @@ summary:-webkit-details-marker {
         display:flex;
     }
         #tabs a{
+            height: 34px;
+            width: 173px; 
             display: flex; 
             align-items: center;
             justify-content: space-between; 
@@ -139,7 +146,7 @@ summary:-webkit-details-marker {
             font-family: 'Roboto';
             color: #C2C2C2;
             width:100px;
-            height:40px;
+            height:40px;    
             display:inline-block;
         }
         #tabs a:link, #tabs a:visited{
@@ -147,7 +154,7 @@ summary:-webkit-details-marker {
 
         }
         #tabs a:hover, #tabs a:active{
-            background-color: #161616;
+            background-color: #373737;
         }
     #breadcrumbs{
         background-color: #161616;
@@ -166,6 +173,14 @@ summary:-webkit-details-marker {
 footer{
     height:16px;
     background-color:blue;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+
+}
+#text{
+    display: inline-block; 
+    font-size: ;
 }
 
 
