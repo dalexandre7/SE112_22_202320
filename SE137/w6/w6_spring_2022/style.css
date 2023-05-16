@@ -70,10 +70,7 @@ aside{
     align-items: center;
 
 }
-#aside a:last-child{
-    margin-top: 300px; 
 
-}
 #tile{ 
     display: inline-block; 
     
@@ -85,6 +82,7 @@ aside{
 }
 #trash{
     display:inline-block; 
+    margin-top: 270px; 
 }
 
 nav{
@@ -133,19 +131,20 @@ summary:-webkit-details-marker {
     flex-direction: column;
 }
     #tabs{
+        height: 34px;
+        width: 173px; 
         background-color: #161616;
         display:flex;
     }
         #tabs a{
-            height: 34px;
-            width: 173px; 
+             
             display: flex; 
             align-items: center;
             justify-content: space-between; 
             text-decoration: none;
             font-family: 'Roboto';
             color: #C2C2C2;
-            width:100px;
+            width:173px;
             height:40px;    
             display:inline-block;
         }
@@ -155,6 +154,18 @@ summary:-webkit-details-marker {
         }
         #tabs a:hover, #tabs a:active{
             background-color: #373737;
+        }
+        #button1{
+            padding-left:10px; 
+
+            
+            
+        }
+        #button2{
+            
+        }
+        #button3{
+        
         }
     #breadcrumbs{
         background-color: #161616;
@@ -180,7 +191,10 @@ footer{
 }
 #text{
     display: inline-block; 
-    font-size: ;
+    font-weight: 400; 
+    font-size: 12px; 
+    line-height:14px; 
+    color: #FFFFFF;
 }
 
 
