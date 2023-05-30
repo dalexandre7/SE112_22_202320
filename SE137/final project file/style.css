@@ -1,0 +1,178 @@
+@charset "UTF-8"; 
+@import url('https://fonts.google.com/specimen/Josefin+Sans?query=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@200&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ main{ 
+    background-color: #1F2022;
+ }
+ body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+ }
+header{
+    background-color: #1F2022;
+    height: 100px;
+    padding-left: 44px; 
+    padding-right: 44px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    color: #EEEEEE; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Title{ 
+    color: #EEEEEE; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+#links a{ 
+    display:inline-block; 
+    text-decoration: none;
+    margin-right: 4px;
+    color: #EEEEEE; 
+    font-family: 'Josefin Sans', sans-serif;
+
+ }
+#links a:first-child{ 
+    color: #00ADB5; 
+}
+layer1{ 
+    display: flex;
+    text-decoration: none;
+
+}
+
+section{
+    
+    display: flex; 
+    flex-direction: column;
+    color: #EEEEEE; 
+    padding-left: 126px;
+
+    
+}
+viewport{ 
+    padding-top: 197px; 
+    padding-left: 360px; 
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+
+}
+
+#c1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#lastp{
+    font-family:'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+}
+#main{ 
+    color: #00ADB5;
+    font-weight: 800px;
+    font-size: 100px;
+    line-height: 122px;
+    letter-spacing: 0.06em;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.pro{
+    position: relative;
+}
+.text{ 
+    position: absolute; 
+    left: 25px;
+    top: 608px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-size: 24px;
+
+}
+.Ellipse{
+    position: absolute; 
+    top: 600px; 
+    left: 15px; 
+}
+.next{
+    color: #EEEEEE; 
+    padding-left: 10px; 
+    font-family: 'Montserrat', sans-serif;
+}
+.buttompic{ 
+    display: flex; 
+    padding-top: 5px ;
+}
+.line{
+    padding-left: 75px; 
+}
+
+scroll{ 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding-left: 360px;  
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+scroll a{ 
+    text-decoration: none;
+}
+.s3{ 
+    padding-top: 190px; 
+    padding-left: 15px; 
+    
+
+}
+.s2{
+    padding-top: 190px; 
+    padding-left: 15px;
+}
+.view{ 
+    display: flex; 
+    flex-direction: column;
+    position: relative; 
+}
+.v{
+    position: absolute; 
+    top: 150px; 
+    padding-left: 205px; 
+    font-family: 'Josefin Sans', 'sans-serif';
+}
+.solid{
+    border-top: 2px solid white;
+
+}
+footer{
+    display: flex; 
+    justify-content: space-between;
+}
+.iconsocial{ 
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.linked{
+    margin-left: 0px;
+}
+.lastlinks{
+    display: flex; 
+    flex-direction: column;
+}
+
+
+
+footer a{ 
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: white; 
+}
+
+
+
+    

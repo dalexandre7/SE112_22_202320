@@ -1,0 +1,19 @@
+ @charset "UTF-8"; 
+ body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+ }
+ layer{
+    display: flex; 
+    flex-direction: column;
+ }
+ firstrow{ 
+    display: flex; 
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px; 
+ }
