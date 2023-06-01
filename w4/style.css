@@ -1,6 +1,15 @@
 @charset "UTF - 8";
-body{
-  background-color: darksalmon;
+html,body{ 
+  box-sizing: border-box; 
+  height: 100%; 
+  margin: 0px; 
+}
+h2{
+    color: white;
+}
+
+.hide{
+  display: none; 
 }
 .grid-container{
   display: grid;
@@ -17,25 +26,44 @@ body{
                       
 
 } 
-.item1{
+.item1{ 
   grid-area: head; 
+  text-align: center; 
+  background-color: blanchedalmond;
 }
-#line{
-  color: white; 
-}
-.item2{
+.item2 {
   grid-area: Bio; 
-}
-.hide{
-  display:none; 
-}
-.item3{
-  grid-area: Schooling;
-}
+  text-align: center; 
+  padding-bottom:100px;
 
-.item4{
-  grid-area: Hobbies; 
 }
-.item5{
-  grid-area: foot; 
+.item3{ 
+    grid-area: Schooling; 
+    text-align: center;
+    height: 300px;
+    
+}
+.item4{ 
+    grid-area: Hobbies; 
+    text-align: center;
+    background-image: url(images/wp7335992.webp);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    text-emphasis-color: black;
+    height: 500px;
+
+}
+.item5{ 
+    grid-area: foot; 
+    text-align: center; 
+    background-color: gray;
+
+}
+body{ 
+    background-color: darkgray;
+}
+p,li{ 
+    color: white;
+    text-align: center;
+    margin-inline: 300px; 
 }
