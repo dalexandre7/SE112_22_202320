@@ -1,64 +1,41 @@
 @charset "UTF - 8";
-html,body{ 
-  box-sizing: border-box; 
-  height: 100%; 
-  margin: 0px; 
+body{
+  background-color: darksalmon;
 }
-h2{
-    color: white;
-}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  grid-template-rows: 1fr,1fr,1fr,1fr ;
+  height: 100vh; 
+  margin: 2em; 
 
-.hide{
-  display: none; 
-}
-.grid-container{ 
-  display: grid; 
-  grid-template-areas: 
-  'head head head head head'
-  'bio bio bio schooling schooling schooling'
-  'bio bio bio hobbies hobbies hobbies'
-  'bio bio bio hobbies hobbies hobbies'
-  'footer footer footer footer footer'
-}
-.item1{ 
+  grid-template-areas:"head head"
+
+                      "Bio Bio"
+                      "Hobbies Schooling"
+                      "foot foot";
+                      
+
+} 
+.item1{
   grid-area: head; 
-  text-align: center; 
-  background-color: blanchedalmond;
 }
-.item2 {
-  grid-area: bio; 
-  text-align: center; 
-  height: 300px; 
+#line{
+  color: white; 
 }
-.item3{ 
-    grid-area: schooling; 
-    text-align: center;
-    height: 300px;
-    border: 5px solid burlywood; 
+.item2{
+  grid-area: Bio; 
 }
-.item4{ 
-    grid-area: hobbies; 
-    text-align: center;
-    background-image: url(images/wp7335992.webp);
-    background-repeat: no-repeat; 
-    background-size: 100%;
-    border: 5px solid burlywood; 
-    text-emphasis-color: black;
-    height: 500px;
+.hide{
+  display:none; 
+}
+.item3{
+  grid-area: Schooling;
+}
 
+.item4{
+  grid-area: Hobbies; 
 }
-.item5{ 
-    grid-area: footer; 
-    text-align: center; 
-    background-color: gray;
-    height: 100px;
-
-}
-body{ 
-    background-color: darkgray;
-}
-p,li{ 
-    color: white;
-    text-align: center;
-    margin-inline: 300px; 
+.item5{
+  grid-area: foot; 
 }

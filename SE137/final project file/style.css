@@ -11,8 +11,9 @@
         display:none;
     }
 }
-@media (min-width:0px) and (max-width:1000px)
+@media (min-width:0px) and (max-width:500px)
 {
+    
     #links{ 
         display: none; 
     }
@@ -20,6 +21,7 @@
         display: none; 
     }
 }
+
  body{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
