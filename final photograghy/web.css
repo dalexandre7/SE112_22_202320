@@ -1,0 +1,38 @@
+@charset "UTF-8"; 
+html,body{ 
+    box-sizing: border-box; 
+    height: 100%; 
+    margin: 0px; 
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    grid-template-rows: 1fr;
+    height: 100vh; 
+    margin: 2em; 
+    grid-template-areas:
+      'head head Pict Pict'
+       'Bios Bios Pict Pict'
+      'Foot Foot Pict Pict';
+  }
+header{ 
+    grid-area: header; 
+
+}
+.desc{ 
+    grid-area: Bios; 
+    display: flex; 
+    flex-direction: column;
+
+}
+.buttons{ 
+    display: flex; 
+    flex-direction: row;
+}
+.picture{ 
+    grid-area: Picture; 
+
+}
+.footer{ 
+    grid-area: Footer; 
+}
