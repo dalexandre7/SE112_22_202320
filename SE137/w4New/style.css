@@ -1,0 +1,79 @@
+@charset "UTF - 8";
+html,body{ 
+    box-sizing: border-box; 
+    margin: 0px; 
+    width:100%; 
+    height:100%; 
+  }
+  main{
+    display:grid;
+    grid-template-areas:"h h h h h h"
+                        "n n s s z z"
+                        "n n s s z z"
+                        "l l l l l l"
+                        "f f f f f f";
+    box-sizing: border-box;
+    min-height:100%; 
+    /*Center a Box element*/
+    position:relative;
+    margin:0 auto 0 auto;
+    
+}
+
+.head{
+    grid-area:h; 
+    color: black;
+    background-color:#9DDCFF;
+    text-align: center;
+    width: 1440px;
+    height: 112px;
+    margin-bottom: 68px;
+
+}
+.hide{
+    display: none; 
+}
+.schooling{
+    grid-area:n; 
+    color: black;
+    background-color:#9DDCFF;
+    width: 493px;
+    height: 499px;
+    margin-right: 10px;
+    text-align: center;
+}
+.picture{
+    grid-area:s; 
+    width: 408px;
+    height: 499px;        
+}
+.bio{
+    grid-area:z; 
+    color: black;
+    background-color:#9DDCFF;
+    width: 495px;
+    height: 499px;
+    margin-left:10px; 
+    text-align: center;
+}
+.hobbies{
+    grid-area:l; 
+    color: black;
+    background-color:#9DDCFF;
+    width: 1437px;
+    height: 203px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.foot{
+    grid-area: f; 
+    background-color:#9DDCFF;
+    color: black;
+    width: 1468px;
+    height: 156px;
+    text-align: center;
+
+
+}
+
