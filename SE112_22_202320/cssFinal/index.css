@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+html, body{
+    box-sizing: border-box;
+    height:100%; 
+    margin:0px;
+    width: 100%;
+    background-color: black;
+}
+.col-lg-6{
+    color: white; 
+    font-family: Convergence;
+}
+#title{
+    color: #FFF;
+    text-align: center;
+    font-family: Convergence;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 9.6px;
+    text-transform: capitalize;
+
+}
+.card{border-top: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black; 
+    color: white; 
+}
+#projects{ 
+    display: flex;
+    justify-content: space-between;
+}
+.my-5{
+    color:#FFF;
+}
+.display-4{
+    color: #FFF; 
+}
